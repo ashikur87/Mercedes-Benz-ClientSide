@@ -1,0 +1,57 @@
+
+.pro-img-section img {
+    position: relative;
+    border-radius: 10px;
+    height: 563px;
+   
+}
+.topic {
+    position: relative;
+    padding-top: 80px;
+  
+}
+.topic h3 {
+    font-size: 40px;
+    font-weight: 600;
+    padding-top: 40px;
+}
+.topic h3 span {
+    color: #de3213e3;
+    padding: 18px 0;
+}
+.customer h1 {
+    color: tomato;
+    position: relative;
+    padding-right: 132px;
+    margin-top: 30px;
+}
+.customer p {
+    position: relative;
+    color: black;
+    padding-top: 12px;
+    font-weight: 400;
+    font-size: 20px;
+}
+.topic p {
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 29px;
+}
+.professional-topic {
+    padding: 0 20px;
+}
+@media only screen and (max-width:688px) {
+    .pro-img-section{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .pro-img-section img{
+        width: 100%;
+    }
+    
+}
+@media only screen and (min-width:689px) and (max-width:991px) {
+    .pro-img-section{
+        grid-template-columns: repeat(2,1fr);
+    }
+    
+}
