@@ -20,7 +20,8 @@ netlify:https://mercedes-benz-ashikurrahman.netlify.app/
 1.site name is Mercedes -benz
 2.here customer given review 
 3.customer booked any car 
-4.addmin add service 
+4.admin add service 
 5.admin update order status
 6.customer support
+7.customer manage all order
 
